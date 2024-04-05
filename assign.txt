@@ -1,0 +1,27 @@
+3.What is the difference between rest and spread operator?
+
+Rest and spread operators look the same (…) but they differ in their uses.
+
+Spread operator is used to spread or expand element in an array into individual elements out of an array. We can use spread operator to copy an array example: 
+
+const food = [‘gote’, ‘pap’,’zobo’];
+const copiedFood = […food];
+console.log(copiedFood);// [‘gote’, ‘pap’,’zobo’]
+
+,to merge two arrays from end of the first to the beginning of the second example:
+
+const food1 = [‘gote’, ‘pap’,’zobo’];
+const food2 = [‘fanta’, ‘kunu’];
+const food3 = […food1, …food2];
+console.log(food3);// [‘gote’, ‘pap’,’zobo’, ‘fanta’, ‘kunu’]
+
+
+,to also pass multiple arguments to a function.
+
+Rest operator is usually used to collect the remaining or the rest of the arguments in an array. For example: 
+
+const food = [‘gote’, ‘pap’,’zobo’, ‘fanta’, ‘kunu’];
+
+console.log(food[0]); // ‘gote’
+console.log(food[1]; // ‘pap’
+console.log(food[...remaining]); // [’zobo’, ‘fanta’, ‘kunu’]
