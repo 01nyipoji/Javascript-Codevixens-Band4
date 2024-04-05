@@ -13,7 +13,7 @@ if(score >= 90){
 } else if(score >= 50){
     course = 'Civil Engineering';
 } else {
-    course = 'no admission';
+    course = 'no admission'
 }
 
-console.log(`You've been offered ${course} `);
+console.log(`You've been offered ${course}`);
