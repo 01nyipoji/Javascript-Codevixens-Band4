@@ -32,3 +32,24 @@ let programming = {
      for (let key in programming){
         console.log(programming[key]);
      };
+
+     //5b
+     /*
+     Abstraction
+Inheritance
+Polymorphism
+Encapsulation
+
+Abstraction
+To simplify reality and focus only on data and processes relevant to the application being built
+
+Encapsulation
+Data and programs that manipulate those data are bound together and their complexity is hidden
+
+Inheritance
+A class can derive its methods and properties from another class, resulting in a hierarchy of classes.
+
+Polymorphism
+Different sub-classes of the same super-class, can implement their shared interface in different ways
+
+     */
